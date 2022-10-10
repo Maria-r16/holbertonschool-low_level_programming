@@ -8,7 +8,7 @@
  *
  *Return: 0                                                                                                                          
  *
- *      
+ *new line: \n     
  */                                                                                                                                   
 
 int main(void)                                                                                                                        
