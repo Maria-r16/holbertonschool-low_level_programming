@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the size various types 
+ * main - prints the size various types
  *
  * Return: 0
  */
@@ -19,6 +19,6 @@ int main(void)
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(longlongintType));
 	printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
 	
-	return 0;
+	return (0);
 
 }
