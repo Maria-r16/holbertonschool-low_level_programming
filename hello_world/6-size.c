@@ -1,11 +1,11 @@
 #include <studio.h>
 
 /**
- * Description:
+ * main - prints the size various types 
  *
  * Return: 0
  */
-int main()
+int main(void)
 {
 	int intType;
 	float floatType;
