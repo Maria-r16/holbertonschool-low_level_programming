@@ -5,7 +5,7 @@
 /*
  * main - prints the value
  *
- * Description: assign value to the variable n
+ * description: assign value to the variable n
  *
  * Return: 0
  */
@@ -13,6 +13,7 @@ int main(void)
 {
 	int n;
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
 	{
