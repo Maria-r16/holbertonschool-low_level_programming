@@ -3,10 +3,8 @@
 #include <stdio.h>
 
 /*
- * main - prints the value
- *
+ * main - Starting program
  * description: assign value to the variable n
- *
  * Return: 0
  */
 int main(void)
