@@ -3,12 +3,11 @@
 #include <stdio.h>
 
 /*
- * Description: ssign value to the variable n, and determine based on it, if it is a negative or positive number or equal to its value
+ * Description: assign value to the variable n
  *
  * main - printf : output with newline
  *
  */
-
 int main (void) {
 	int n;
 	srand(time(0));
