@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main
- * description
- * return
+ * main 
+ * description choose the last digit
+ * return 0
  */
 int main(void)
 {
