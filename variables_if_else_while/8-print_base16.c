@@ -8,12 +8,17 @@
 
 int main(void)
 {
-	char hexa;
+	int num;
+	int alpha;
 
-	for (hexa = '0x0' ; hexa <= '0xf' ; hexa++)
+	for (num = 0 ; num <= 9 ; num++)
 	{
-	putchar (hexa);
-	if (hexa == '0xf')
+	putchar (num);
+	}
+	for (alpha = 'a' ; alpha <= 'f' ; alpha++)
+	{
+	putchar (alpha);
+	if (hexa == 'f')
 	{
 	putchar ('\n');
 	}
