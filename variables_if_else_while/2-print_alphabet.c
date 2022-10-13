@@ -15,7 +15,7 @@ int main ()
 	putchar (alpha);
 	if (alpha == 'z')
 	{
-	putchar ("\n");
+	putchar ('\n');
 	}
 	}
 	return (0);
