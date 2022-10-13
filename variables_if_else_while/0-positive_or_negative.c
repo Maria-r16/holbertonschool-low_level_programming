@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - main function
  * Description: validate value variable
  * Return: 0
