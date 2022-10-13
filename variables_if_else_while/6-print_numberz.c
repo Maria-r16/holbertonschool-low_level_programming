@@ -2,7 +2,7 @@
 
 /**
  *main - main function
- *Description:
+ *Description: Count single digit numbers
  *Return: 0
  */
 
