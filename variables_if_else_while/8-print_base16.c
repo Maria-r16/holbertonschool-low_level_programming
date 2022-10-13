@@ -18,7 +18,7 @@ int main(void)
 	for (alpha = 'a' ; alpha <= 'f' ; alpha++)
 	{
 	putchar (alpha);
-	if (hexa == 'f')
+	if (alpha == 'f')
 	{
 	putchar ('\n');
 	}
