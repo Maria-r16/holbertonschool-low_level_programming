@@ -14,5 +14,5 @@ int main ()
 	{
 	putchar (alpha);
 	}
-	return (0)
+	return (0);
 }
