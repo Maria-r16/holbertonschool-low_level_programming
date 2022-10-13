@@ -4,7 +4,6 @@
  * main - print in lowercase all base 16 or hex numbers.
  * Return: 0
  */
-
 int main(void)
 {
 	int num;
