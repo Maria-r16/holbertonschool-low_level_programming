@@ -8,14 +8,14 @@
 
 int main()
 {
-	int num;
+	char num;
 
 	for (num = 0 ; num <= 9 ; num++)
 	{
-	printf (num);
+	putchar (num);
 	if (num == 9)
 	{
-	printf ('\n');
+	putchar ('\n');
 	}
 	}
 	return (0);
