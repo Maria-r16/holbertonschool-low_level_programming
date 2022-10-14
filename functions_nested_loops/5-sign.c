@@ -3,7 +3,7 @@
 /**
  * print_sign - print numbers according to assignment.
  * @n: value of 0
- * Return: should return num 0 when is it the same value, 1 when the value is positiv or -1 when the value is negativ
+ * Return:0 when is it the same value, 1 when is positiv or -1 the value is negativ
  */
 
 int print_sign(int n)
