@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - check lowercase and uppercase character.
+ * _isalpha - check lowercase and uppercase character.
  * @c - return one
  * Description: where the letter c and C will have a return value: one.
  * Return: 0
