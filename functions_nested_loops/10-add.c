@@ -2,7 +2,7 @@
 
 /**
  * add - Add two values
- * @n1:number to add 
+ * @n1:number to add
  * @n2:number to add
  * Return: value of the result, by the sum between n1 and n2
  */
