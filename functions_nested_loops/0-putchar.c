@@ -8,10 +8,6 @@
 
 int main(void)
 {
-	myfunction();
+	_putchar('g');
 	return (0);
-}
-void myfunction()
-{
-	putchar("_putchar\n");
 }

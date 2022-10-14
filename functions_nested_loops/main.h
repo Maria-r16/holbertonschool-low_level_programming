@@ -1,1 +1,1 @@
-void myfunction();
+int _putchar(char c);
