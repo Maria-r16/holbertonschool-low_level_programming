@@ -18,7 +18,7 @@ void jack_bauer(void)
 	{
 	for (min = 0 ; min <= 5 ; min++)
 	{
-	for (seg = 0 ; seg <=9 ; seg++)
+	for (seg = 0 ; seg <= 9 ; seg++)
 	{
 
 		_putchar(decenah + '0');
