@@ -10,16 +10,16 @@ void jack_bauer(void)
 {
 	int decenah, undh, min, seg
 
-	for (decenah = 0; decenah <= 2; decenah++)
+	for (decenah = 0 ; decenah <= 2 ; decenah++)
 	{
-	for (undh =0; undh <= 9; undh++)
+	for (undh =0 ; undh <= 9 ; undh++)
 	{
 		if ((decenah <= 1 && undh <= 9) || (decenah <= 2 && undh <= 3)) 
 	
 	{
-	for (min = 0; min <= 5; min++)
+	for (min = 0 ; min <= 5 ; min++)
 	{
-	for (seg = 0; seg <=9; seg++)
+	for (seg = 0 ; seg <=9 ; seg++)
 	{
 	
 		_putchar(decenah + '0');
