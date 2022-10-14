@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - will print the general time of day jack bauer.
- * Description:the functionality is performed by dictating the ten hour, hour unit, minutes and seconds
+ * Description:the ten hour, hour unit, minutes and seconds are set
  * Return: Hours, minutes and seconds
  */
 
@@ -12,16 +12,15 @@ void jack_bauer(void)
 
 	for (decenah = 0 ; decenah <= 2 ; decenah++)
 	{
-	for (undh =0 ; undh <= 9 ; undh++)
+	for (undh = 0 ; undh <= 9 ; undh++)
 	{
-		if ((decenah <= 1 && undh <= 9) || (decenah <= 2 && undh <= 3)) 
-	
+	if ((decenah <= 1 && undh <= 9) || (decenah <= 2 && undh <= 3))
 	{
 	for (min = 0 ; min <= 5 ; min++)
 	{
 	for (seg = 0 ; seg <=9 ; seg++)
 	{
-	
+
 		_putchar(decenah + '0');
 		_putchar(undh + '0');
 		_putchar(58);
@@ -32,7 +31,5 @@ void jack_bauer(void)
 	}
 	}
 	}
-	}	
-
-
+	}
 }
