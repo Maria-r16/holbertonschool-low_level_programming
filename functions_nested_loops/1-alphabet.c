@@ -19,7 +19,6 @@ void print_alphabet(void)
 	for (alpha = 'a' ; alpha <= 'z' ; alpha++)
 	{
 	_putchar(alpha);
-	}
 	if (alpha == 'z')
 	{
 	_putchar('\n');
