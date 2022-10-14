@@ -8,7 +8,7 @@
 
 void jack_bauer(void)
 {
-	int decenah, undh, min, seg
+	int decenah, undh, min, seg;
 
 	for (decenah = 0 ; decenah <= 2 ; decenah++)
 	{
