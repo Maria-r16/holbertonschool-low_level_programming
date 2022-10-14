@@ -2,8 +2,8 @@
 
 /**
 *_islower - check the lowercase character.
-*Description: check the lowercase, where the letter c will have a return value: one.
-*c: return one
+*Parameter 'c' : return one for letter
+*Description: where the letter c will have a return value: one.
 *Return: 0
 */
 
