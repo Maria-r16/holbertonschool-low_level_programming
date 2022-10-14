@@ -21,7 +21,7 @@ int print_sing(int n)
 	return (-1);
 	}
 
-	else (n == 0)
+	else
 	{
 	_putchar(48);
 	return (0);
