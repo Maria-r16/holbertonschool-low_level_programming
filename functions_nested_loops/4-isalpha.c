@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - check lowercase and uppercase character.
- * @c - return one
+ * @c: return one
  * Description: where the letter c and C will have a return value: one.
  * Return: 0
  */
