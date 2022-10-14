@@ -2,14 +2,14 @@
 
 /**
  * _islower - check lowercase and uppercase character.
- * @c - C - return one
+ * @c - return one
  * Description: where the letter c and C will have a return value: one.
  * Return: 0
  */
 
 int _islower(int c)
 {
-	if ((c >= 97 && c <= 122) || (C >= 97 && C <= 122))
+	if ((c >= 97 && c <= 122) || (c >= 97 && c <= 122))
 	{
 	return (1);
 	}
