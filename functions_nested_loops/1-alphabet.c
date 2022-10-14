@@ -1,16 +1,10 @@
 #include "main.h"
 
 /**
- * main - mian fuction
+ * print_alphabet - alphabet printing using a new main function.
  * Description: alphabet
  * Return: 0
  */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
