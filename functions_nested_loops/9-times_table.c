@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * time_tablet - prints times table
- * Return: - 
+ * times_tablet - prints times table
+ * Return: -
  */
 
 void times_table(void)
