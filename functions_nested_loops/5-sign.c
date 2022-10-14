@@ -24,6 +24,6 @@ int print_sing(int n)
 	else (n < 0)
 	{
 	_putchar(n);
-	return (-1)
+	return (-1);
 	}
 }
