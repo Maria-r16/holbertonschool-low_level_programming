@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - will print a straight line, and if n is <= 0 it will perform a line break
+ * print_line - will print a straight line, otherwise it will be a line break
  * @n: number of times the character will be printed
  * Return: -
  */
