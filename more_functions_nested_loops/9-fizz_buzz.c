@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - print the numbers 1 to 100, for multiples of three: Fizz instead of the number and for those of five: Buzz.
+ * main - print the numbers 1 to 100, for multiples of three: Fizz and for those of five: Buzz.
  * Return: 0
  */
 
