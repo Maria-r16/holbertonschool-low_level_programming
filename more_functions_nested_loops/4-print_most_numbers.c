@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers - will print the numbers. however, it will have exceptions
+ * print_most_numbers -will print the numbers, whit exceptions
  * Return:the numbers of 0 to 9
  */
 
@@ -11,11 +11,10 @@ void print_most_numbers(void)
 
 	for (; n <= 9 ; n++)
 	{
-
-		if( n == 2 || n == 4)
-		{
+	if( n == 2 || n == 4)
+	{
 		continue;
-		}
+	}
 
 		else
 		{
