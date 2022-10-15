@@ -2,6 +2,7 @@
 
 /**
  * _isdigit - will print where only numbers
+ * @c - check of value
  * Return: prints a 1 if it is a number, otherwise it will be 0
  */
 
