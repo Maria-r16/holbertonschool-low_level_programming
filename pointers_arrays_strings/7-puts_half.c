@@ -3,7 +3,7 @@
 
 /**
  * puts_half - print the second half of the string.
- * @str: printed string 
+ * @str: printed string
  * Return: 0
  */
 
@@ -23,7 +23,7 @@ void puts_half(char *str)
 
 	else
 	{
-		n = (len +1) / 2;
+		n = (len + 1) / 2;
 	}
 
 	for (a = n ; a < len ; a++)
