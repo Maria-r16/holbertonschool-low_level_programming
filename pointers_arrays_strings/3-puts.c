@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _puts -
- * @str
+ * _puts - print string
+ * @str: pointer
  * Return: 0
  */
 
