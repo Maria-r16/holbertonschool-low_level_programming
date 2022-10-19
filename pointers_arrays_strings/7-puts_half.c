@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * puts_half -
- * @str:
+ * puts_half - print the second half of the string.
+ * @str: printed string 
  * Return: 0
  */
 
