@@ -2,9 +2,8 @@
 #include <stdio.h>
 
 /**
- * reset_to_98
- * main - check the code
- * @*n: pointer
+ * reset_to_98 - define pointer
+ * @n: pointer
  * Return: 0
  */
 
