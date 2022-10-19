@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _strlen -
- * @s:
+ * _strlen - returns the length of a string.
+ * @s:directed pointer
  * Return: 0
  */
 
