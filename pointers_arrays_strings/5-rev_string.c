@@ -9,16 +9,23 @@
 
 void rev_string(char *s)
 {
-	int i = 0;
+	int i = 0, j = 0;
+
+	char string [500];
 
 	while (s[i] != '\0')
 	{
-	i++;
+		*string[i] = *s[i];
+		i++;
 	}
+
+	i = i - 1;
 
 	while (i >= 0)
 	{
-	printf("%c", s[i]);
-	i--;
+		*s[i] =  *string[j];
+		j++;
+		i--;
+
 	}
 }
