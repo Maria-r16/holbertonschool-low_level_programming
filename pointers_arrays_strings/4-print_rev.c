@@ -17,10 +17,12 @@ void print_rev(char *s)
 		i++;
 	}
 
+	i = i -  1;
+
 	while (i >= 0)
 	{
 		printf("%c", s[i]);
-		i = i - 1;
+		i--;
 	}
 
 	printf("\n");
