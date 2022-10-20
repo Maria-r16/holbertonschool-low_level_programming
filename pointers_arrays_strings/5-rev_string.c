@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * rev_string - print an  string  the  revers
+ * rev_string - pass content of pointers to opposite
  * @s: pointer
  * Return: void
  */
@@ -13,9 +13,9 @@ void rev_string(char *s)
 
 	char string [500];
 
-	while (s[i] != '\0')
+	while (*(s + i))
 	{
-		*string[i] = *s[i];
+		*(string + i) = *(s + i);
 		i++;
 	}
 
@@ -23,7 +23,7 @@ void rev_string(char *s)
 
 	while (i >= 0)
 	{
-		*s[i] =  *string[j];
+		*(s + i) =  *(string  + j);
 		j++;
 		i--;
 
