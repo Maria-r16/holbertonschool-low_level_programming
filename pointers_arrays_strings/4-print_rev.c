@@ -9,17 +9,11 @@
 
 void print_rev(char *s)
 {
-	int len = 0, i;
+	int len = _strlen(s);
 
-	while (s[i++])
+	for (int i = len - 1 ; i >= 0 ; i--)
 	{
-		len++;
+		printf("%c", s[i]);
 	}
-
-	for (i = len - 1 ; i >= 0 ; i--)
-	{
-		printf(s[i]);
-	}
-
 	printf('\n');
 }
