@@ -13,13 +13,12 @@ void rev_string(char *s)
 
 	while (s[i] != '\0')
 	{
-	printf("%c", s[i]);
 	i++;
 	}
 
 	while (i >= 0)
 	{
 	printf("%c", s[i]);
-	i = i - 1;
+	i--;
 	}
 }
