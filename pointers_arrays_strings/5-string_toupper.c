@@ -6,10 +6,9 @@
  * Return:
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int j;
-	char *s;
 
 	for (j = 0 ; s[j] != '\0' ; j++)
 	{
