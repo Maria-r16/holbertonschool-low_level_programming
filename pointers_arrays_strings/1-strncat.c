@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenate two strings without the null
- * @dest: string
- * @src string
+ * @dest: string destiny
+ * @src string to pass
  * @n: number of elements to concatenate
  * Return: dest
  */
