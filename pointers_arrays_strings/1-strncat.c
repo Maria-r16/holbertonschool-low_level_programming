@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenate two strings without the null
- * @dest: string 
- * @src string 
+ * @dest: string
+ * @src string
  * @n: number of elements to concatenate
  * Return: dest
  */
@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 		;
 	}
 
-	for (j = 0 ; j < n && src [j] != '\0' ; j++, i++)
+	for (j = 0 ; j < n && src[j] != '\0' ; j++, i++)
 	{
 	dest[i] = src[j];
 	}
