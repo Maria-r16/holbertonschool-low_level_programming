@@ -4,6 +4,7 @@
 *  prime2 - Makes possible to evaluate from 1 to n
 *  @i: same number as n
 *  @j: number that iterates from 1 to n
+*  Return: 1
 */
 
 int prime2(int i, int j)
