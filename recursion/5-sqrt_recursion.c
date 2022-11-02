@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * ev - Makes possible to evaluate from 1 to n
- * @i: same number as n
- * @j: number that iterates from 1 to n
- */
+* ev - Makes possible to evaluate from 1 to n
+* @i: same number as n
+* @j: number that iterates from 1 to n
+*/
 
 int ev(int i, int j)
 {
@@ -18,9 +18,10 @@ int ev(int i, int j)
 }
 
 /**
- * _sqrt_recursion - returns the natural square root of n
- * @n: Number Integer
- */
+* _sqrt_recursion - returns the natural square root of n
+* @n: Number Integer
+* Return: the natural square root of a number.
+*/
 
 int _sqrt_recursion(int n)
 {

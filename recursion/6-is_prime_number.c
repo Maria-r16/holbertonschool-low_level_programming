@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  prime2 - Makes possible to evaluate from 1 to n
- *  @i: same number as n
- *  @j: number that iterates from 1 to n
- */
+*  prime2 - Makes possible to evaluate from 1 to n
+*  @i: same number as n
+*  @j: number that iterates from 1 to n
+*/
 
 int prime2(int i, int j)
 {
@@ -18,9 +18,10 @@ int prime2(int i, int j)
 }
 
 /**
- * is_prime_number - checks if the number is a prime number
- * @n: the number to check
- */
+* is_prime_number - checks if the number is a prime number
+* @n: the number to check
+* Return: 1 or 0
+*/
 
 int is_prime_number(int n)
 {
