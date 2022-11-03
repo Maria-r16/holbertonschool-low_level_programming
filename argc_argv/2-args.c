@@ -2,24 +2,24 @@
 #include <stdio.h>
 
 /**
- * main -
+ * main - prints all arguments it receives.
  *
- * @argc:
+ * @argc: number of arguments to print
  *
- * @argv:
+ * @argv: array pointing to arguments
  *
- * Return:
+ * Return: 0
  *
  */
 
 int main(int argc, char **argv[])
 {
 	int i = 0;
-	
+
 	while(i < argc)
 	{
-		i++;
 		printf("%s\n", i, argv[i]);
+		i++;
 	}
 	return (0);
 }
