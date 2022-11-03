@@ -16,7 +16,7 @@ int main(int argc, __attribute__((unused)) char *argv[])
 	int cont = 0;
 
 	while (cont < argc)
-	{	
+	{
 		cont++;
 	}
 	printf("%d\n", cont - 1);
