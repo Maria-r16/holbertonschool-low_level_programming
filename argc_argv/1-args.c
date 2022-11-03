@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main -
+ * main - prints the number of arguments passed into it.
  *
- * @argc:
+ * @argc: number of command line arguments
  *
- * @argv:
+ * @argv: array pointing to arguments
  *
- * Return:
+ * Return: 0
  */
 
 int main(int argc, __attribute__((unused)) char *argv[])
