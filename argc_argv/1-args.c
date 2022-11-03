@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
 	int cont;
 
-	for(cont = 1 ; argv[x] == '\0' ; cont++);
+	for(cont = 1 ; argv[cont] == '\0' ; cont++);
 
-	printf("%d\n", i - 1);	
+	printf("%d\n", cont - 1);	
 }
