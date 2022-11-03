@@ -15,6 +15,6 @@ int main(int argc, char *argv)
 {
 	argc = 0;
 
-	putchar("%s/n", argv[argc]);
+	printf("%s/n", argv[argc]);
 	return (0);
 }
