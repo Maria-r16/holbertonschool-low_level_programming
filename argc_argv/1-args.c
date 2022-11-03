@@ -13,10 +13,12 @@
 
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-	int cont;
+	int cont = 0;
 
-	for (cont = 0 ; cont < argc ; cont++);
-
+	while (cont < argc)
+	{	
+		cont++;
+	}
 	printf("%d\n", cont - 1);
 
 	return (0);
