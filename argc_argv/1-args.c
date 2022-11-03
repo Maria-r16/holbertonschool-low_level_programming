@@ -6,18 +6,16 @@
  *
  * @argc:
  *
- * @srgv:
+ * @argv:
  *
  * Return:
  */
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int cont;
 
-	for(i = 0 ; i < argc ; i++)
-		{
-		}
-	printf("%d\n" i - 1);
-	return (0);
+	for(cont = 1 ; argv[x] == '\0' ; cont++);
+
+	printf("%d\n", i - 1);	
 }
