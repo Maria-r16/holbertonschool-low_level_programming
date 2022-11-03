@@ -15,9 +15,9 @@ int main(int argc, __attribute__((unused)) char *argv[])
 {
 	int cont;
 
-	for(cont = 0 ; cont < argc ; cont++);
+	for (cont = 0 ; cont < argc ; cont++);
 
 	printf("%d\n", cont - 1);
-	
-	return (0); 	
+
+	return (0);
 }
