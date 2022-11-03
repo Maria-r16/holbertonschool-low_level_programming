@@ -11,14 +11,13 @@
  * Return:
  */
 
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
 	int cont;
-	argc = cont;
 
-	for(cont = 1 ; argv[cont] == '\0' ; cont++);
+	for(cont = 0 ; cont < argc ; cont++);
 
 	printf("%d\n", cont - 1);
 	
-	return (argc); 	
+	return (0); 	
 }
