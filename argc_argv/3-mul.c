@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/** 
+/**
 * main - print the multiplication two numbers.
-* 
+*
 * @argc: specific range.
 *
 * @argv: convert to integer for positions.
@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
   int result, num1, num2;
-  
+
   if (argc != 3)
   {
     printf("Error\n");
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
   result = num1 * num2;
   printf("%d\n", result);
 
-  return 0;
+  return (0);
 }
 
 
