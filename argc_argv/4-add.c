@@ -35,6 +35,7 @@ continue;
 else
 {
 printf("Error\n");
+return (1);
 }
 j++;
 }
