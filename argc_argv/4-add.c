@@ -4,11 +4,11 @@
 
 /**
 * main - add positive numbers.
-* 
+*
 * @argv: argument list the function main.
-* 
+*
 * @argc: number of arguments
-* 
+*
 * Return: 0
 */
 
@@ -30,19 +30,20 @@ while (j != '\0')
 {
 if (argv[i][j] >= '0' && argv[i][j] <= '9')
 {
-  continue;
+continue;
 }
-else 
+else
 {
 printf("Error\n");
-}    
+} 
 j++;
 }
-suma += atoi(argv[i]); 
+suma += atoi(argv[i]);
 i++;
 }
 
 printf("%d\n", suma);
 
 return (0);
+
 }
