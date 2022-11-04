@@ -15,7 +15,7 @@
 int main(int argc, char *argv[])
 {
 int suma = 0;
-int i = 0;
+int i = 1;
 int j = 0;
 
 if (argc == 1)
@@ -35,7 +35,7 @@ continue;
 else
 {
 printf("Error\n");
-} 
+}
 j++;
 }
 suma += atoi(argv[i]);
@@ -45,5 +45,4 @@ i++;
 printf("%d\n", suma);
 
 return (0);
-
 }
