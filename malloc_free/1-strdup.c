@@ -17,7 +17,7 @@ char *s;
 int size = 0;
 int i = 0;
 
-if (str == NULL) 
+if (str == NULL)
 return (NULL);
 
 while (str[size] != '\0')
