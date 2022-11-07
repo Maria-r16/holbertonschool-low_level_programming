@@ -34,13 +34,13 @@ size1++;
 while (s2[size2] != '\0')
 {
 size2++;
-} 
+}
 
 s = (char *)malloc((size1 + size2 + 1) * sizeof(char));
 
 if (s == NULL)
 {
-  return (NULL);
+return (NULL);
 }
 
 while (s1[i] != '\0')
@@ -48,12 +48,11 @@ while (s1[i] != '\0')
 s[i] = s1[i];
 i++;
 }
- 
+
 while (s2[j] != '\0')
 {
 s[j] = s2[j];
 j++;
 }
-
 return (s);
 }
