@@ -30,16 +30,15 @@ while (i < height)
 matrix[i] = malloc(sizeof(int) * width);
 if (matrix[i] == NULL)
 {
-
-while (j <= i)
+i = i - 1;
+while (i >= 0)
 {
-free(matrix[j]);
-j++;
+free(matrix[i]);
+i--;
 }
 free(matrix);
 return (NULL);
 }
-
 
 while (j < width)
 {
