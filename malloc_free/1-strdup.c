@@ -28,10 +28,8 @@ s = (char *)malloc(i + 1 * sizeof(char));
 if (s != NULL)
 {
 while (str[size] != '\0');
-{
 size++;
 s[size] = str[size];
-}
 }
 
 else
