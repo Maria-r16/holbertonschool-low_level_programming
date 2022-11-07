@@ -20,15 +20,18 @@ if (str == NULL)
 return (NULL);
 
 while(str[i] != '\0')
+{
 i++;
-
+}
 
 s = (char *)malloc(i + 1 * sizeof(char));
 if (s != NULL)
 {
-while (str[size] != '\0')
+while (str[size] != '\0');
+{
 size++;
 s[size] = str[size];
+}
 }
 
 else
