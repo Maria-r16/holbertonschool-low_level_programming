@@ -20,18 +20,18 @@ int i = 0;
 if (str == NULL)
 return (NULL);
 
-while (str[i] != '\0')
+while (str[size] != '\0')
 {
-i++;
+size++;
 }
 
-s = (char *)malloc(i + 1 * sizeof(char));
+s = (char *)malloc(size + 1 * sizeof(char));
 
 if (s != NULL)
 {
-while (str[size] != '\0')
-s[size] = str[size];
-size++;
+while (str[i] != '\0')
+s[i] = str[i];
+i++;
 }
 
 else
@@ -39,7 +39,7 @@ else
 return (NULL);
 }
 
-s[size] = '\0';
+s[i] = '\0';
 
 return (s);
 }
