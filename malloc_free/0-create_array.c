@@ -11,22 +11,24 @@
 
 char *create_array(unsigned int size, char c)
 {
-char *array = NULL;
-unsigned int x;
+char *array;
+int x = 0;
 
-x = 0;
-if (size == 0)
-return (NULL);
+if (size == 0) return (NULL);
 
 if (size != 0)
 {
 array = (char *)malloc(size * sizeof(char));
+
 if (array != NULL)
 {
 while (x < size)
+{
 array[x] = c;
 x++;
 }
 }
-	return (array);
+
+}
+return (array);
 }
