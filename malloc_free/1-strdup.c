@@ -29,7 +29,7 @@ s = malloc(size + 1 * sizeof(char));
 
 if (str != NULL)
 {
-size = 0;
+i = 0;
 while (i < size)
 {
 s[i] = str[i];
