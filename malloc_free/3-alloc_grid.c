@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * **alloc_grid - returns a pointer to a 2 dimensional array of integers
+ * **alloc_grid - returns a pointer to a two dimensional array of integers
  * @width: int type parameter
  * @height: int type parameter
  * Return: matrix
@@ -18,7 +18,7 @@ if (width <= 0 || height <= 0)
 {
 return  (NULL);
 }
-matrix = malloc(height * sizeof(int *));
+matrix = malloc(sizeof(int *) * height);
 
 if (matrix == NULL)
 {
@@ -27,24 +27,28 @@ return (NULL);
 
 while (i < height)
 {
-matrix[i] = malloc(width * sizeof(int));
+matrix[i] = malloc(sizeof(int) *width);
 
 if (matrix[i] == NULL)
 {
-while (j < i)
+free(matrix);
+while (j <= i)
 {
 free(matrix[j]);
 j++;
 }
-
-free(matrix);
 return (NULL);
 }
-while (j < width)
+}
+
+while (i < width)
+{
+while (j < height)
 {
 matrix[i][j] = 0;
 j++;
 }
 }
+
 return (matrix);
 }
