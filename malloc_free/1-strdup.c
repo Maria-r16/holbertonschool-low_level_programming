@@ -41,7 +41,5 @@ else
 return (NULL);
 }
 
-// s[size] = '\0';
-
 return (s);
 }
