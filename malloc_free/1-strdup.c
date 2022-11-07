@@ -14,7 +14,7 @@ char *_strdup(char *str)
 {
 
 char *s = NULL;
-unsigned int size = 0;
+unsigned int size;
 int i = 0;
 
 if (str == NULL)
@@ -29,11 +29,11 @@ s = (char *)malloc(i + 1 * sizeof(char));
 
 if (s != NULL)
 {
+size = 0;
 while (str[size] != '\0')
 s[size] = str[size];
 size++;
 }
-
 else
 {
 return (NULL);
