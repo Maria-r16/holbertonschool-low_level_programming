@@ -32,8 +32,8 @@ if (str != NULL)
 size = 0;
 while (i < size)
 {
-s[size] = str[size];
-size++;
+s[i] = str[i];
+i++;
 }
 }
 else
