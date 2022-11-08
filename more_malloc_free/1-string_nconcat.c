@@ -32,7 +32,8 @@ if (x >= len2)
 x = len2;
 pointer = malloc(sizeof(char) * (len1 + len2 + 1));
 }
-else {
+else
+{
 pointer = malloc(sizeof(char) * (len1 + n + 1));
 }
 if (pointer == NULL)
