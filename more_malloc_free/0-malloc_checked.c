@@ -4,9 +4,9 @@
 
 /**
  * *malloc_checked - function that allocates memory using malloc
- * 
+ *
  * @b: type unsigned int
- * 
+ *
  * Return: pointer to the allocated memory
  * or 98 if FAIL
 */
