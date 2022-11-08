@@ -40,12 +40,12 @@ if (pointer == NULL)
 {
 return (NULL);
 }
-while (i < len1) 
+while (i < len1)
 {
 pointer[i] = s1[i];
 i++;
 }
-while (j < x) 
+while (j < x)
 {
 pointer[i++] = s2[j];
 j++;
