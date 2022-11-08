@@ -7,7 +7,7 @@
  * @s1: first string
  * @s2: second string
  * @n: type unsigned int
- * Return:
+ * Return: pointer to new memory
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -24,39 +24,32 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-
 while (s1[len1] != '\0')
 {
 len1++;
 }
-
 while (s2[len2] != '\0')
 {
 len2++;
 }
-
 if (x >= len2)
 {
 x = len2;
 pointer = malloc(sizeof(char) * (len1 + len2 + 1));
 }
-
 else
 {
 pointer = malloc(sizeof(char) * (len1 + n + 1));
 }
-
 if (pointer == NULL)
 {
 return (NULL);
 }
-
 while (i < len1)
 {
 pointer[i] = s1[i];
 i++;
 }
-
 while (j < x)
 {
 pointer[i++] = s2[j];
