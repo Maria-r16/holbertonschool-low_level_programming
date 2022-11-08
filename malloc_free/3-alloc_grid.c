@@ -28,23 +28,28 @@ return (NULL);
 while (i < height)
 {
 matrix[i] = malloc(sizeof(int) * width);
+
 if (matrix[i] == NULL)
 {
-i = i - 1;
-while (i >= 0)
-{
-free(matrix[i]);
-i--;
-}
 free(matrix);
+while (j <= i)
+{
+free(matrix[j]);
+j++;
+}
 return (NULL);
 }
+i++;
+}
 
+while (i < height)
+{
 while (j < width)
 {
 matrix[i][j] = 0;
 j++;
 }
+i++;
 }
 
 return (matrix);
