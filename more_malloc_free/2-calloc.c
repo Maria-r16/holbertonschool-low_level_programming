@@ -6,7 +6,7 @@
  * *_calloc - allocates memory for an array
  * @nmemb: unsigned int type
  * @size: unsigned int type
- * Return: returns pointer or NULL if malloc fails 
+ * Return: returns pointer or NULL if malloc fails
  * or if nmemb or size is 0
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
