@@ -17,7 +17,6 @@ if (width <= 0 || height <= 0)
 {
 return  ('\0');
 }
-
 matrix = malloc(sizeof(int *) * height);
 
 if (matrix == NULL)
@@ -28,7 +27,6 @@ return (NULL);
 while (i < height)
 {
 matrix[i] = malloc(sizeof(int) * width);
-
 if (matrix[i] == NULL)
 {
 free(matrix);
@@ -51,6 +49,5 @@ j++;
 }
 i++;
 }
-
 return (matrix);
 }
