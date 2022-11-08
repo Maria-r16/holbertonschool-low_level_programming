@@ -24,7 +24,7 @@ array = malloc(sizeof(int) * size);
 
 if (array == NULL)
 {
-  return (NULL);
+return (NULL);
 }
 
 while (i < size)
