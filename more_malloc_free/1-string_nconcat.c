@@ -15,13 +15,17 @@ char *pointer;
 int len1 = 0, len2 = 0, i = 0, j = 0;
 int x = n;
 
-if (s1 == NULL) s1 = "";
+if (s1 == NULL)
+s1 = "";
 
-if (s2 == NULL) s2 = "";
+if (s2 == NULL)
+s2 = "";
 
-while (s1[len1] != '\0') len1++;
+while (s1[len1] != '\0')
+len1++;
 
-while (s2[len2] != '\0') len2++;
+while (s2[len2] != '\0')
+len2++;
 
 if (x >= len2)
 {
