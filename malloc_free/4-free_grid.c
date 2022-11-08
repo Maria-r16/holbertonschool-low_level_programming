@@ -3,13 +3,15 @@
 #include <stdlib.h>
 
 /**
- * free_grid - function that releases a two-dimensional grid previously created by the alloc_grid function.
+ * free_grid - function that releases a two-dimensional grid 
+ * previously created by the alloc_grid function.
  * @grid: free
  * @height: int type parameter
  * Return: matrix
  */
 void free_grid(int **grid, int height)
 {
+
 int i = 0;
 
 if (grid == 0 || height == 0) return;
