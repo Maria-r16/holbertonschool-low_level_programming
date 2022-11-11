@@ -1,0 +1,27 @@
+#include <stdio.h>
+/**
+ * struct dog -
+ * 
+ * 
+ * Return:
+*/
+
+typedef struct Contact
+{
+char name;
+char email;
+int phone;
+} Contact;
+
+int main()
+{
+ Contact juan = {"juanfran", "xxxjuanloquendo@gmail.com", 315242550};
+ Contact marta = {"martuchis", "martae@gmail.com", 885274};
+ Contact missi = {"misifus", "missilagoridta@gmail.com", 16032410};
+ Contact paty = {"patico", "paticopeligro@gmail.com", 3147826621};
+
+ Contact mylist[4] = {juan, marta, missi, paty};
+
+  printf("%s, %s, %d", mylist);
+return;
+}
