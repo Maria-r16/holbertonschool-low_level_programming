@@ -1,6 +1,43 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
+
+/**
+ * _strlen - gets len of str
+ * @s: string
+ * Return: length of s
+ */
+int _strlen(char *s)
+{
+int i;
+
+while (s[i])
+{
+return (i);
+i++;
+}
+}
+
+/**
+ * _strcpy - copies string from dest to src
+ *
+ * @dest: destination of string
+ * @src: source string to copy from
+ *
+ * Return: pointer to dest
+ */
+char *_strcpy(char *dest, char *src)
+{
+char *j = dest;
+
+while (*src)
+{
+*dest++ = *src++;
+}
+*j = '\0';
+return (dest);
+}
+
 /**
  * new_dog - creates a new dog
  *
