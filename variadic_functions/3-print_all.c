@@ -10,7 +10,12 @@
 */
 void print_all(const char * const format, ...)
 {
-typeof data[] = {
+
+va_list list;
+int i = 0, j = 0;
+char *sep;
+
+type_t data[] = {
 {"c", character},
 {"i", integer},
 {"f", floate},
@@ -18,30 +23,26 @@ typeof data[] = {
 {NULL, NULL}
 };
 
-int i = 0, j = 0;
-char *sep;
-
-va_list list;
-
-sep = "";
 va_start(list, format);
+sep = "";
+while (format != NULL && format[i] != '\0')
+{
 
-while (format && format[i] != '\0')
+while (j < 4)
 {
-while (data[j].ch != NULL)
+if (format[i] == *(ops[j]).op)
 {
-if (format[i] == data[j].ch[0])
-{
-printf("%s", sep);
-data[j].func(list);
-sep = ", ";
+ops[j].f(list, separator);
+separator = ", ";
 }
-
 j++;
 }
-
 i++;
 }
-va_end(list);
+
 printf("\n");
+va_end(list);
 }
+
+
+
