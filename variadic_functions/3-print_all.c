@@ -30,19 +30,16 @@ while (format != NULL && format[i] != '\0')
 
 while (j < 4)
 {
-if (format[i] == *(ops[j]).op)
+if (format[i] == *(data[j]).op)
 {
-ops[j].f(list, separator);
+data[j].f(list, separator);
 separator = ", ";
 }
 j++;
 }
 i++;
 }
-
 printf("\n");
 va_end(list);
 }
-
-
 
