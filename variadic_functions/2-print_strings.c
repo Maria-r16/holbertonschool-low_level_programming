@@ -36,6 +36,6 @@ printf("%s", separator);
 }
 i++;
 }
-va_end(strings);
+va_end(arguments);
 printf("\n");
 }
