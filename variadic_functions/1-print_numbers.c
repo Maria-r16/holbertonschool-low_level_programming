@@ -7,8 +7,8 @@
  *
  * @n: number of integers passed to the function
  *
- * Return: sum of all parameters
-*/
+ * Return: nothing
+ */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
