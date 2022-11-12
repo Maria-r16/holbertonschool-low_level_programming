@@ -33,7 +33,7 @@ while (j < 4)
 if (format[i] == *(data[j]).op)
 {
 data[j].f(list, sep);
-separator = ", ";
+sep = ", ";
 }
 j++;
 }
