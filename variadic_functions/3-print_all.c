@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include "type_functions.h"
 
 /**
  * print_all - function that prints arguments of different types
