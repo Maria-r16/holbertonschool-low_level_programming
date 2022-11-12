@@ -10,10 +10,10 @@
 */
 void print_all(const char * const format, ...)
 {
-types data[] = {
+typeof data[] = {
 {"c", character},
 {"i", integer},
-{"f", floatelement},
+{"f", floate},
 {"s", string},
 {NULL, NULL}
 };
