@@ -33,7 +33,7 @@ if ((argv[2] == '/' && cant2 == 0) || (argv[2] == '%' && cant2 == 0))
 printf("Error\n");
 exit(100);
 }
-	
+
 printf("%d\n", get_op_func(argv[2])(cant1, cant2));
 return (0);
 }
