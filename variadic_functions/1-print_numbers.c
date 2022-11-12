@@ -22,7 +22,7 @@ while (i < n)
 {
 printf("%d", va_arg(nums, int));
 
-if (separator != NULL && i < n -1)
+if (separator != NULL && i < n - 1)
 {
 printf("%s", separator);
 }
