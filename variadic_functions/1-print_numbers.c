@@ -20,7 +20,7 @@ va_start(nums, n);
 
 while (i < n)
 {
-printf("%d", va_arg(numbers, int));
+printf("%d", va_arg(nums, int));
 
 if (separator != NULL && i < n -1)
 {
@@ -28,6 +28,6 @@ printf("%s", separator);
 }
 i++;
 }
-va_end(numbers);
+va_end(nums);
 printf("\n");
 }
