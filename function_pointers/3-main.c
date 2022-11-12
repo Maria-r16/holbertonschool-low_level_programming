@@ -24,7 +24,7 @@ cant1 = atoi(argv[1]);
 cant2 = atoi(argv[3]);
 form = (argv[2]);
 
-if (get_op_func(form) == NULL || form != '\0')
+if (get_op_func(form) == NULL || form[1] != '\0')
 {
 printf("Error\n");
 exit(99);
