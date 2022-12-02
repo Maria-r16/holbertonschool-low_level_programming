@@ -15,11 +15,15 @@ const list_t *c = h;
 while (c)
 {
 if (c->str == NULL)
+{
 printf("[0] (nil)\n");
+}
 else
+{
 printf("[%d] %s\n", c->len, c->str);
 c = c->next;
 len++;
+}
 i++;
 }
 return (len);
