@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * free_list - Frees a list_t
- * @head: A pointer to the list_t
- * Return: void or no value
- */
+* free_list - Frees a list_t
+* @head: A pointer to the list_t
+* Return: void or no value
+*/
 void free_list(list_t *head)
 {
 list_t *check, *c;
