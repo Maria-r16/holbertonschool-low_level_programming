@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * print_lists - function that prints all the elements of a list_t list
- * @h: string - (malloc'ed string)
- * Return: the number of nodes or 0, (nil)
- */
+* print_list - function that prints all the elements of a list_t list
+* @h: string - (malloc'ed string)
+* Return: the number of nodes or 0, (nil)
+*/
 
 size_t print_list(const list_t *h)
 {
