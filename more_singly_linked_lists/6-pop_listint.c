@@ -1,11 +1,14 @@
 #include "lists.h"
+
 /**
 * pop_listint - delete the head node
 *@head: pointer to list
 *Return: head node's data
 */
+
 int pop_listint(listint_t **head)
 {
+  
 listint_t *t;
 int n;
 
