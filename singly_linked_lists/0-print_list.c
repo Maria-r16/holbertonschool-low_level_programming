@@ -21,9 +21,9 @@ printf("[0] (nil)\n");
 else
 {
 printf("[%d] %s\n", c->len, c->str);
+}
 c = c->next;
 len++;
-}
 i++;
 }
 return (len);
