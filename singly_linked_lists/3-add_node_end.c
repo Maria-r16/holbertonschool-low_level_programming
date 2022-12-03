@@ -11,7 +11,7 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 list_t *newnode;
 list_t *last;
-int coun;
+int coun = 0;
 
 if (head == NULL || str == NULL)
 return (NULL);
@@ -24,5 +24,30 @@ if (newnode == NULL)
 {
 return (NULL);
 }
+newnode->str = strdup(str);
+if (newnode->str == NULL)
+{
+free(newnode);
+return (NULL);
+}
+while (str[coun] != '\0')
+{
+coun++;
+}
+
+newnode->len = coun;
+newnode->next = NULL;
+
+if (*head == NULL)
+{
+*head = newnode;
+return (newnode);
+}
+
+while (last->next != NULL)
+{
+last = last->next;
+}
+last->next = newnode;
 return (newnode);
 }
