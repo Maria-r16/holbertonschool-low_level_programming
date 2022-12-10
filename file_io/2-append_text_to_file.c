@@ -21,7 +21,7 @@ return (-1);
 
 if (text_content != NULL)
 {
-while(text_content[len] != '\0')
+while (text_content[len] != '\0')
 {
 len++;
 }
