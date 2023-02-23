@@ -2,7 +2,7 @@
 
 /**
 * main - function main
-* Description: prints the alphabet in lowercase
+* Description: prints the alphabet in lowercase to except 'q' and 'e'.
 * Return: 0
 */
 
@@ -12,15 +12,15 @@ int main(void)
 
 	for (alpha = 'a' ; alpha <= 'z' ; alpha++)
 	{
-		putchar (alpha);
-	}
-	for (alpha = 'A' ; alpha <= 'Z' ; alpha++)
-	{
+		if (alpha == 'q' || alpha == 'e')
+		{
+			continue;
+		}
 		putchar(alpha);
-		if (alpha == 'Z')
-			{
-				putchar('\n');
-			}
+		if (alpha == 'z')
+		{
+			putchar('\n');
+		}
 	}
 	return (0);
 }
