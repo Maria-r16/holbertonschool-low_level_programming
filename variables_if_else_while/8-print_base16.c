@@ -8,21 +8,21 @@
 
 int main(void)
 {
-    int number;
-    char alpha;
+	int number;
+	char alpha;
 
-    for (number = 0 ; number <= 9 ; number++)
-    {
-        putchar((number % 10) + '0');
-    }
+	for (number = 0 ; number <= 9 ; number++)
+	{
+		putchar((number % 10) + '0');
+	}
 
-    for (alpha = 'a'; alpha <= 'f'; alpha++)
-    {
-        putchar(alpha);
-        if (alpha == 'f')
-        {
-            putchar('\n');
-        }
-    }
-    return (0);
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
+	{
+		putchar(alpha);
+		if (alpha == 'f')
+		{
+			putchar('\n');
+		}
+	}
+	return (0);
 }
