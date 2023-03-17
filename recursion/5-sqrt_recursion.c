@@ -19,3 +19,14 @@ int evaluate(int i, int j)
 	}
 	return (evaluate(i, j + 1));
 }
+
+/**
+* _sqrt_recursion - returns the natural square root of n
+* @n: Number Integer
+* Return: the natural square root of a number.
+*/
+
+int _sqrt_recursion(int n)
+{
+	return (evaluate(n, 1));
+}
